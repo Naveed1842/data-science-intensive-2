@@ -1,6 +1,27 @@
-1) Ebay Bidding - 
-http://cims.nyu.edu/~munoz/data/
+Project Ideas I am interested in - 
+
+1) Ebay Bidding -
+Predicting the final selling price of an item that has been auctioned. 
+The dataset contains historical auction data from eBay. I would like to utilize machine learning algortihms to predict the sales results
+of items which were auctioned
+
+Dataset - http://cims.nyu.edu/~munoz/data/
+
 
 2) Movielens data -
+Building a Recommendation system to determine which movies are liked by what kind of audience.
+The dataset contains Ratings info, User info and Movie info
+
 Readme file: http://files.grouplens.org/papers/ml-1m-README.txt
 Dataset: http://www.grouplens.org/system/files/ml-1m.zip
+
+
+3) Predicting a Shark's investment 
+I could utilize this data set to analyze various patterns and then be able to build a machine learning model that predicts - 
+What kind of offer would result in a Shark ready to invest on it ?
+I could also combine this data set with some other interesting data sets pertaining to the investments made by the Sharks outside of
+Shark Tank.
+
+Dataset - https://gist.github.com/apurvadave/3afe546bc05e4e544b24
+
+
