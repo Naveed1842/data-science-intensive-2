@@ -2,7 +2,7 @@ Project Ideas I am interested in -
 
 1) Ebay Bidding -
 Predicting the final selling price of an item that has been auctioned. 
-The dataset contains historical auction data from eBay. I would like to utilize machine learning algortihms to predict the sales results
+The dataset contains historical auction data from eBay. I would like to utilize machine learning algorithms to predict the sales results
 of items which were auctioned
 
 Dataset - http://cims.nyu.edu/~munoz/data/
