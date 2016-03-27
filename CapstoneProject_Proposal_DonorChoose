@@ -1,9 +1,9 @@
 Capstone Project Proposal - DonorsChoose.org data
 
 Problem - 
-DonorsChoose.org is a United States–based 501(c)(3) nonprofit organization that allows individuals to donate directly to public school classroom projects.
-Using the data provided by DonorsChoose.org, I would like to predict the following outcomes of a project - 
-1) If a project would be fully funded or not ? If so, when would it be fully funded(duration)?
+DonorsChoose.org is a United States–based 501(c)(3) nonprofit organization that allows individuals to donate directly to public school 
+classroom projects. Using the data provided by DonorsChoose.org, I would like to predict the following outcomes of a project - 
+1) If a project would be fully funded or not? If so, when would it be fully funded(duration)?
 2) If a project is very successfull compared to other projects (based on a some criteria) ?
 3) Which set of donors could be targeted for any given project ? 
 
@@ -11,24 +11,27 @@ Also, I would like to answer the following questions using this data -
 1) What factors would contribute in a project being fully funded successfully ?
 2) What factors would negate the chances of a project being funded ?
 3) What factors would contribute in a project being highly successfull, far surpasssing other projects, being funded very quickly ?
-4) What factors would contribute towards a specific set of projects being funded by a specific donor ? (Eg: Subject/Area, Location, Poverty level)
-5) How important is the teacher written requests/essays for a project? And what factors contribute the most ?
+4) What factors would contribute towards a specific set of projects being funded by a specific donor?(Eg: Subject/Area, Location,Povertylevel)
+5) How important is the teacher written requests/essays for a project? And what factors contribute the most? 
 Does the materials/resources needed matter?
 6) What would be the ideal way to target a donor? (Eg: By Post, By Email(and what time?), By Giving page)
 
 
 Client - 
 The client here would be the non-profit organization - Donorschoose.org. It would help the client in several ways - 
-1) To know the possible funding outcome of a project, so that the client is well prepared in advance. The Client could use this information to estimate and prepare for the 
-material purchase from vendors. The client could use this information to change the priority in listing the project on the website.
+1) To know the possible funding outcome of a project, so that the client is well prepared in advance. The Client could use this 
+information to estimate and prepare for the material purchase from vendors. The client could use this information to change the priority
+in listing the project on the website.
 2) The Client could target donors for project funding based on the system's predictions and also the means of making funding requests
 such as email, by post, by promotions etc.
-3) Getting to know the factors of a project success or failure would help the Client make improvements or suggest improvements to the teacher who requests the project.
+3) Getting to know the factors of a project success or failure would help the Client make improvements or suggest improvements to 
+the teacher who requests the project.
 Eg: Location of project, Subject, Funding amount, Poverty level, Materials requested etc
 
 
 Dataset description - 
-1) Projects - All classroom projects that have been posted to the site, including lots of school info such as its NCES ID (government-issued), lat/long, and city/state/zip.
+1) Projects - All classroom projects that have been posted to the site, including lots of school info such as its NCES ID 
+(government-issued), lat/long, and city/state/zip.
               Stats: ~150MB compressed, ~500MB CSV, ~900K records
 2) Donations - All donations, including donor city, state, and partial-zip (when available).
                Stats: ~700MB compressed, ~1.6GB CSV, ~5M records
@@ -38,11 +41,14 @@ Dataset description -
                                        Stats: ~1GB compressed, ~3GB CSV,  ~900K records
 
 Brief Approach (doesn’t include implementation details) – 
-    I would firstly try to add more data if needed such as the schools basic info. Then, I would wrangle with the data to get it into good shape. 
-As a part of data wrangling, I would deal with missing values and dirty data. I would also process some of the texts that are present in the datasets to extract useful information
-that would help with my analysis. I think I would then determine certain key thresholds that would add more paramters to the data such as ranking, priority etc
-    I would then probably prepare some training and testing data and use it to build a machine learning model that would be used to make predictions on test data.
-I would look at answering all the questions I want to solve using the model built and other analysis and inferential statistics techniques.
+I would firstly try to add more data if needed such as the schools basic info. Then, I would wrangle with the data to get it into 
+a good shape. 
+As a part of data wrangling, I would deal with missing values and dirty data. I would also process some of the texts that are present 
+in the datasets to extract useful information that would help with my analysis. I think I would then determine certain key thresholds 
+that would add more paramters to the data such as ranking, priority etc
+I would then probably prepare some training and testing data and use it to build a machine learning model that would be used to make 
+predictions on test data. I would look at answering all the questions I want to solve using the model built and other analysis and 
+inferential statistics techniques.
 
 
 Final Deliverables - 
