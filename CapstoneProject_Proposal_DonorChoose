@@ -43,9 +43,9 @@ Dataset description -
 Brief Approach (doesn’t include implementation details) – 
 I would firstly try to add more data if needed such as the schools basic info. Then, I would wrangle with the data to get it into 
 a good shape. 
-As a part of data wrangling, I would deal with missing values and dirty data. I would also process some of the texts that are present 
-in the datasets to extract useful information that would help with my analysis. I think I would then determine certain key thresholds 
-that would add more paramters to the data such as ranking, priority etc
+As a part of data wrangling, I would deal with missing values and dirty data. I would also do some data pre-processing on the texts 
+that are present in the datasets to remove stop words, stemming etc and extract useful information that would help with my analysis.
+I think I would then determine certain key thresholds that would add more paramters to the data such as ranking, priority etc.
 I would then probably prepare some training and testing data and use it to build a machine learning model that would be used to make 
 predictions on test data. I would look at answering all the questions I want to solve using the model built and other analysis and 
 inferential statistics techniques.
