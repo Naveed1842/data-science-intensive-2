@@ -5,7 +5,8 @@ DonorsChoose.org is a United States–based 501(c)(3) nonprofit organization tha
 classroom projects. Using the data provided by DonorsChoose.org, I would like to predict the following outcomes of a project - 
 1) If a project would be fully funded or not? If so, when would it be fully funded(duration)?
 2) If a project is very successfull compared to other projects (based on a some criteria) ?
-3) Which set of donors could be targeted for any given project ? 
+3) Predicting Donor rentention
+4) Which set of donors could be targeted for any given project ? 
 
 Also, I would like to answer the following questions using this data - 
 1) What factors would contribute in a project being fully funded successfully ?
@@ -15,6 +16,7 @@ Also, I would like to answer the following questions using this data -
 5) How important is the teacher written requests/essays for a project? And what factors contribute the most? 
 Does the materials/resources needed matter?
 6) What would be the ideal way to target a donor? (Eg: By Post, By Email(and what time?), By Giving page)
+7) What factors would contribute towards a donor return?
 
 
 Client - 
@@ -27,6 +29,7 @@ such as email, by post, by promotions etc.
 3) Getting to know the factors of a project success or failure would help the Client make improvements or suggest improvements to 
 the teacher who requests the project.
 Eg: Location of project, Subject, Funding amount, Poverty level, Materials requested etc
+4) Predicting donors that are likely to return could lead to higher efficient and significant savings. 
 
 
 Dataset description - 
