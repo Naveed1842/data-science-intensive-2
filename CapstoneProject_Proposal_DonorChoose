@@ -1,4 +1,5 @@
 Capstone Project Proposal - DonorsChoose.org data
+link to data - http://data.donorschoose.org/open-data/overview/
 
 Problem - 
 DonorsChoose.org is a United States–based 501(c)(3) nonprofit organization that allows individuals to donate directly to public school 
@@ -31,6 +32,8 @@ the teacher who requests the project.
 Eg: Location of project, Subject, Funding amount, Poverty level, Materials requested etc
 4) Predicting donors that are likely to return could lead to higher efficient and significant savings. 
 
+
+Link to data - http://data.donorschoose.org/open-data/overview/
 
 Dataset description - 
 1) Projects - All classroom projects that have been posted to the site, including lots of school info such as its NCES ID 
