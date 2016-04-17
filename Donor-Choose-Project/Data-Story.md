@@ -17,23 +17,15 @@ Now, let's look at how the projects performed in terms of the state they belong 
 
 ![state_projCompletion](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/state_projCompletion.png)
 
-According to U.S. Census Bureau’s 2014 American Community Survey (ACS), the richest and poorest states are as follows - 
-Poor states -
-1) Mississippi
-2) West Virginia
-3) Arkansas
-4) Alabama
-5) Kentucky
-6) Tennessee
-7) Louisiana
-8) New Mexico
-9) South Carolina
-
+According to U.S. Census Bureau’s 2014 American Community Survey (ACS), the poorest and richest states are as follows - 
 Poor States | Rich States
 ------------ | -------------
-Mississippi | a
-West Virginia | a
-Mississippi | a
-West Virginia | a
-Mississippi | a
-West Virginia | a
+Mississippi | Maryland
+West Virginia | New Jersey
+Arkansas | Alaska
+Alabama | Connecticut
+Kentucky | Hawaii
+Tennessee | Massachusetts
+Louisiana | New Hampshire
+New Mexico | Virginia
+South Carolina | California
