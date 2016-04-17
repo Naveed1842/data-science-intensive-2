@@ -17,7 +17,8 @@ Now, let's look at how the projects performed in terms of the state they belong 
 
 ![state_projCompletion](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/state_projCompletion.png)
 
-According to U.S. Census Bureau’s 2014 American Community Survey (ACS), the poorest and richest states are as follows - 
+According to U.S. Census Bureau’s 2014 American Community Survey (ACS), the poorest and richest states are as follows-
+
 Poor States | Rich States
 ------------ | -------------
 Mississippi | Maryland
