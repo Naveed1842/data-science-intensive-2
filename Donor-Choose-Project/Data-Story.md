@@ -7,8 +7,26 @@ The idea of this article is to answer questions such as - <br>
 2) What kind of donors would be more generous ?<br>
 3) What kind of donors would interest what kind of projects ?<br>
 
-Here is how the projects performed in terms of the percentage of projects sucessfully funded under a subject category.
+Here is how the projects performed in terms of the percentage of projects sucessfully funded under a subject category-
 
 ![subject_projCompletion](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/subject_projCompletion.png)
 
 Nutrition, Environmental Science, Economics, Financial Literacy, Music and Team sports scored the highest, wheare as Other and Parent Involvement scored the least. This clearly shows that if a project is not assigned to any category, the chances of getting sufficient  funds would reduce. It could also mean that, donors consider subject as an important factor while deciding on what project to choose.  Donors also tend to prefer a project that has focus on a particular subject and not on projects that involves parent involvement. 
+
+Now, let's look at how the projects performed in terms of the state they belong to-
+
+![state_projCompletion](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/state_projCompletion.png)
+
+According to U.S. Census Bureau’s 2014 American Community Survey (ACS), the poorest and richest states are as follows-
+
+Poor States | Rich States
+------------ | -------------
+Mississippi | Maryland
+West Virginia | New Jersey
+Arkansas | Alaska
+Alabama | Connecticut
+Kentucky | Hawaii
+Tennessee | Massachusetts
+Louisiana | New Hampshire
+New Mexico | Virginia
+South Carolina | California
