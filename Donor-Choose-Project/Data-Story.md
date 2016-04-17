@@ -71,3 +71,14 @@ WI  |   3.600954
 For a project in **DC**, a significant number of donors come from it's neighbouring states - **Virginia** and **Maryland**.
 Similarily for a project in **Iowa**, a significant number of donors come from it's neighbouring states - **Illinois** and **Wisconsin**.
 Another important observation here is that, most of the donors in general come from New York and California and they contribute a significant amount of share irrespective of which state the project belongs to.
+
+Now let's look at the different types of donors we have - 
+1) A teacher who donates to his/her own project
+2) A teacher who donates to a project that belongs to another teacher
+3) A non teacher (Majority of donors)
+
+Let's look at their average donation amount-
+
+![Donor_Avg_Donation](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/donor_avg_don_amt.png)
+
+A person who is not a teacher is likely to be more generous than a teacher. And there are a lot of teachers who donate a significant amount to their own projects. And teachers contribute very less to projects that they don't own.
