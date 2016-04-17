@@ -21,12 +21,12 @@ According to U.S. Census Bureau’s 2014 American Community Survey (ACS), the po
 
 Poor States | Rich States
 ------------ | -------------
-Mississippi | Maryland
-West Virginia | New Jersey
-Arkansas | Alaska
-Alabama | Connecticut
-Kentucky | Hawaii
-Tennessee | Massachusetts
-Louisiana | New Hampshire
-New Mexico | Virginia
-South Carolina | California
+Mississippi(MI) | Maryland(MD)
+West Virginia(WV) | New Jersey(NJ)
+Arkansas(AR) | Alaska(AK)
+Alabama(AL) | Connecticut(CT)
+Kentucky(KY) | Hawaii(HI)
+Tennessee(TN) | Massachusetts(MA)
+Louisiana(LA) | New Hampshire(NH)
+New Mexico(NM) | Virginia(VA)
+South Carolina(SC) | California(CA)
