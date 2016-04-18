@@ -45,8 +45,8 @@ SC | 10.8145 | 0.222739 | 5.34664 | **42.3813** | 0.0739814 | 0.115496
 NV | 9.52517 | 0.311637 | 26.9805 | 0.021724 | **36.9311** | 0.0664827
 IA | 8.59265 | 1.21878 | 6.96014 | 0.0369313 | 0.071499 | **25.6568**
 
-A row here is a state in which a project belongs and the columns are the states where the donations came from. For example, for a project that belongs to New York(NY) state, on an average 6.16% of the total donations come from California(CA) state. Looking at the diagonal line, it clearly shows that a donor is more likely to donate to a project that belongs to school in their own state.
-Apart from that, another interesting finding is a donor is more likely to donate to a project that belongs to a neighbouring state.
+A row here is a state in which a project belongs and the columns are the states where the donations came from. For example, for a project that belongs to New York(NY) state, on an average 6.1593% of the total donations come from California(CA) state. Looking at the diagonal line in this table, it clearly shows that a donor is more likely to donate to a project that belongs to a school in their own state.
+Apart from that, another interesting finding is that a donor is more likely to donate to a project that belongs to a neighbouring state.
 For example, look at the states below - 
 
 Top 5 donations for a project in **District of Columbia** - 
@@ -70,7 +70,7 @@ CA  |   6.960143
 WI  |   3.600954
 
 For a project in **DC**, a significant number of donors come from it's neighbouring states - **Virginia** and **Maryland**.
-Similarily for a project in **Iowa**, a significant number of donors come from it's neighbouring states - **Illinois** and **Wisconsin**.
+Similarily, for a project in **Iowa**, a significant number of donors come from it's neighbouring states - **Illinois** and **Wisconsin**.
 Another important observation here is that, most of the donors in general come from New York and California and they contribute a significant amount of share irrespective of which state the project belongs to.
 
 Now let's look at the different types of donors we have - 
