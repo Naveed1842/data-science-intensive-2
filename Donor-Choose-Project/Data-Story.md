@@ -83,3 +83,9 @@ Let's look at their average donation amount-
 ![Donor_Avg_Donation](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/donor_avg_don_amt.png)
 
 A person who is not a teacher is likely to be more generous than a teacher. And there are a lot of teachers who donate a significant amount to their own projects. And teachers contribute very less to projects that they don't own.
+Also, the below plot shows that project that involves its own teacher contribution is more likely be completed early than other projects. 
+
+![Donor_Duration](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/donor_proj_duration.png)
+
+Based on this information, we can infer that, there is a possibility of a teacher donating a significant amount to his/her project to meet the funding requirement and hence the duration of the project is much less compared to other projects.
+
