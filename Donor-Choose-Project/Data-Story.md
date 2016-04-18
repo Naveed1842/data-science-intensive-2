@@ -17,7 +17,7 @@ Now, let's look at how the projects performed in terms of the state they belong 
 
 ![state_projCompletion](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/state_projCompletion.png)
 
-According to **U.S. Census Bureau’s 2014 American Community Survey (ACS)**, the poorest and richest states based on the average median household income, are as follows-
+According to **U.S. Census Bureau’s 2014 American Community Survey (ACS)**, the poorest and richest states based on the **average median household income**, are as follows-
 
 Poor States | Rich States
 ------------ | -------------
@@ -31,7 +31,8 @@ Louisiana(LA) | New Hampshire(NH)
 New Mexico(NM) | Virginia(VA)
 South Carolina(SC) | California(CA)
 
-Looking at the data above, we can see a definite correlation between the average median household income of a state and the success rate of a project(the success rate here is the percentage of projects fully funded). This could mean that, the state of the school in which the project is based of has an impact on a donation. And there could be a correlation between the state of the donor and the state of the project. Let's look at this correlation below for a sample set of states - 
+Looking at the data above, we can see a definite correlation between the average median household income of a state and the success rate of a project(the success rate here is the percentage of projects fully funded). 
+This could mean that, the state of the school in which the project is based of has a significant impact on the donation. And there could be a correlation between the state of the donor and the state of the project. Let's look at this correlation below for a sample set of states - 
 
 **Table - State wise Projects vs Donations**
 
