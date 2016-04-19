@@ -61,3 +61,7 @@ Other wrangling done - <br/>
 
 ***Data Cleaning to be done***-
 A lot of other data cleaning is pending which involves getting meaning information from donations messages/comments from donors which could help in determining important facors contributing towards a donor's interest. A lot of data cleaning is required on the Project essay data which involves essays written by teachers while creating their projects. This could gives us important insights into the factors that contribute towards a project's success.
+
+***Other Datasets that can be combined***-
+* I have used average median household income data across different states from **U.S. Census Bureau’s 2014 American Community Survey (ACS)** to check its correlation with respective donation amounts across states.
+* Other dataset that could be used is school's information from http://nces.ed.gov/ through a ncesId specified in the Projects dataset
