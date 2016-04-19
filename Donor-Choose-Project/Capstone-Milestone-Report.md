@@ -44,3 +44,20 @@ Link to data - http://data.donorschoose.org/open-data/overview/<br/>
 
 **3) Project resources** - All materials/resources requested for the classroom projects, including vendor name<br/>
 **4) Project written requests / essays** - Full text of the teacher-written requests accompanying all classroom projects<br/>
+**5) Gift cards** - All website-purchased gift cards, including donor and recipient city, state, and partial-zip (when available)<br/>
+
+####Limitations-
+We do not have referral data i.e. For most of the cases, We do not know how a donor came to know about Donorchoose.org. However, we do have buyer data for donors who used a web-purchased gift card. Having referral data for all donors would be important for the company and help in ad campaign targeting. It could also help us in determining what donors are more likely to return for a donation or refer other donors.
+
+####Data Cleaning/Wrangling-
+Raw data was collected in a structured format in the form of csv files and loaded into pandas data frames. I had to merge projects data and donations data in a single data frame to get meaningful information such as - correlation between donor's state and project's state, plot between Primary focus subject and Average donation amount etc.<br/>
+Other wrangling done - <br/>
+* New attributes were created to help generate more interesting plots. For e.g.<br/>
+  * Teachers who contribute to their own project were determined with the help of their account id matched with donor's account id for the same project.<br/>
+  * Project completion percent(number of projects completed/Total number of projects) for different categories such as subject, poverty level of a school, number of students the project reached etc <br/>
+* I had to remove whitespaces from the columns while reading data from the csv files <br/>
+* Some rows had a mismatch of row values vs the columns they belong to. So they were handled.<br/>
+* Additional uncessary columns created as a result of bad values in donor comments were removed.<br/>
+
+***Data Cleaning to be done***-
+A lot of other data cleaning is pending which involves getting meaning information from donations messages/comments from donors which could help in determining important facors contributing towards a donor's interest. A lot of data cleaning is required on the Project essay data which involves essays written by teachers while creating their projects. This could gives us important insights into the factors that contribute towards a project's success.
