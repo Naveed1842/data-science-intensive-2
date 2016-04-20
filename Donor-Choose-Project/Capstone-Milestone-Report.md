@@ -89,5 +89,5 @@ To answer these questions, I would add all the features that I had described in 
 * Donor category eg: teacher
 * Donation type eg: via giving page
 * Payment type eg: credit card
-<br/>In addition to the above features, I would look at adding new dervied features. Also I would extract donor's comments (while making a donation) and this can be used as an important feature in determining why donor made a donation to a specific project. It could specially identify donors that would return for a donation.<br/>
+<br/>In addition to the above features, I would add other unexplored features and I would look at adding new dervied features. Also I would extract donor's comments (while making a donation) and this can be used as an important feature in determining why donor made a donation to a specific project. It could specially identify donors that would return for a donation.<br/>
 All the above features can be added to a selected machine learning algorithm to make predictions.
