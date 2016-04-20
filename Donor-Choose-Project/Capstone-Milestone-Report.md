@@ -71,3 +71,23 @@ All the data exploration done so far are in the following links - <br/>
 * [Projects Only Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/ProjectsOnly_DataExploration.ipynb)<br/>
 * [Donations Only Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/Donations_Only_DataExploration.ipynb)<br/>
 * [Projects merged with Donations Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/Projects_Donations_DataExploration.ipynb)
+
+### Approach
+**If a project would be fully funded or not? If so, when would it be fully funded(duration)<br/>
+1) Identify projects that are very successfull compared to others<br/>
+2) Predicting Donor rentention<br/>
+3) Which set of donors could be targeted for any given project ? <br/>**
+<br/>
+To answer these questions, I would add all the features that I had described in my data exploration -
+* Subject Category
+* Number of students the project reaches
+* Poverty level
+* School type
+* State of the project
+* Project resource type eg: books,field trips
+* Donor's state
+* Donor category eg: teacher
+* Donation type eg: via giving page
+* Payment type eg: credit card
+<br/>In addition to the above features, I would look at adding new dervied features. Also I would extract donor's comments (while making a donation) and this can be used as an important feature in determining why donor made a donation to a specific project. It could specially identify donors that would return for a donation.<br/>
+All the above features can be added to a selected machine learning algorithm to make predictions.
