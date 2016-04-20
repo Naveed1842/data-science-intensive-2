@@ -65,3 +65,9 @@ A lot of other data cleaning is pending which involves getting meaning informati
 ***Other Datasets that can be combined***-
 * I have used average median household income data across different states from **U.S. Census Bureau’s 2014 American Community Survey (ACS)** to check its correlation with respective donation amounts across states.
 * Other dataset that could be used is school's information from http://nces.ed.gov/ through a ncesId specified in the Projects dataset
+
+### Data Exploration
+All the data exploration done so far are in the following links - <br/>
+* [Projects Only Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/ProjectsOnly_DataExploration.ipynb)<br/>
+* [Donations Only Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/Donations_Only_DataExploration.ipynb)<br/>
+* [Projects merged with Donations Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/Projects_Donations_DataExploration.ipynb)
