@@ -96,10 +96,22 @@ Hypothesis test on the significance of difference of sucesses of Highest poverty
 Percentage of project successes if a school comes under a category is 72.52 and if a school doesn't come under any of the categories is 68.59. Hypothesis test reveals that, there is significant difference in the project sucess based on whether school has a assigned type or not.
 
 **5) How do projects's resource types vary with donation amounts?**
-![proj_resource](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/proj_resource.png)
 
+![proj_resource](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/proj_resource.png)
 Trips need the most donation amount folowed by Visitors
 
+**6) Who donates the most - teacher or non-teacher ?**
+
+![teacher_donation](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/teacher_donation.png)
+
+**7) How does payment type and donation type vary with donation amount ?**
+
+![payment_type_donation](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/payment_type_donation.png)
+
+*Average Donation amount if Honoree is included: 77.57*<br/>
+*Average Donation amount via Giving page: 80.87*<br/>
+*Average Donation amount for not in the category: 74.69*<br/>
+**It is found that people on an average donate more via a referral/friend's giving page than on their own**<br/>
 
 All the data exploration done so far are in the following links - <br/>
 * [Projects Only Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/ProjectsOnly_DataExploration.ipynb)<br/>
