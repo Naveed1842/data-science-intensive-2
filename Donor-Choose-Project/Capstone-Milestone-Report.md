@@ -67,6 +67,40 @@ A lot of other data cleaning is pending which involves getting meaning informati
 * Other dataset that could be used is school's information from http://nces.ed.gov/ through a ncesId specified in the Projects dataset
 
 ### Data Exploration
+1) How Subject category effects the performance of a project ?
+![subject_projCompletion](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/subject_projCompletion.png)
+
+![subject_projDuration](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/subject_projDuration.png)
+
+* 'Other' subject under Applied learning scored the lowest
+* 'Maths' under Math&Science scored below average. All other science scored high with Envrionmental Science being the highest
+* 'Nutrition' scored the highest
+* Parent involvement also scored very low
+* Economics,Music and Sports scored high
+* Financial literacy was funded the fastest and Other the slowest
+
+2) How Students reach effects the duration of a project ?
+![student_reach_proj_duration](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/student_reach_proj_duration.png)
+The project duration is uniform untill a student reach of about 150-200. It varies a lot after that.
+
+3) How Poverty level effects the performance of a project ?
+![poverty_projects_performance](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/poverty_projects_performance.png)
+
+**Hypothesis Test**
+Hypothesis test on the significance of difference of sucesses of Highest poverty schoold vs remaining schools revealed a z-score of -50.4101979537. Hence there is a significant amount of difference between the sucesses.
+
+**Poverty level vs Average Donation amount**
+![poverty_donation_amount](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/poverty_donation_amount.png)
+
+**4) How does school type affect performance of a project?**
+Percentage of project successes if a school comes under a category is 72.52 and if a school doesn't come under any of the categories is 68.59. Hypothesis test reveals that, there is significant difference in the project sucess based on whether school has a assigned type or not.
+
+**5) How do projects's resource types vary with donation amounts?**
+![proj_resource](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/proj_resource.png)
+
+Trips need the most donation amount folowed by Visitors
+
+
 All the data exploration done so far are in the following links - <br/>
 * [Projects Only Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/ProjectsOnly_DataExploration.ipynb)<br/>
 * [Donations Only Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/Donations_Only_DataExploration.ipynb)<br/>
