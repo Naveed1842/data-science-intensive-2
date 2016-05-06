@@ -67,7 +67,7 @@ A lot of other data cleaning is pending which involves getting meaning informati
 * Other dataset that could be used is school's information from http://nces.ed.gov/ through a ncesId specified in the Projects dataset
 
 ### Data Exploration
-1) How Subject category effects the performance of a project ?
+**1) How Subject category effects the performance of a project ?**
 ![subject_projCompletion](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/subject_projCompletion.png)
 
 ![subject_projDuration](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/subject_projDuration.png)
@@ -79,11 +79,11 @@ A lot of other data cleaning is pending which involves getting meaning informati
 * Economics,Music and Sports scored high
 * Financial literacy was funded the fastest and Other the slowest
 
-2) How Students reach effects the duration of a project ?
+**2) How Students reach effects the duration of a project ?**
 ![student_reach_proj_duration](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/student_reach_proj_duration.png)
 The project duration is uniform untill a student reach of about 150-200. It varies a lot after that.
 
-3) How Poverty level effects the performance of a project ?
+**3) How Poverty level effects the performance of a project ?**
 ![poverty_projects_performance](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/poverty_projects_performance.png)
 
 **Hypothesis Test**
@@ -112,6 +112,51 @@ Trips need the most donation amount folowed by Visitors
 *Average Donation amount via Giving page: 80.87*<br/>
 *Average Donation amount for not in the category: 74.69*<br/>
 **It is found that people on an average donate more via a referral/friend's giving page than on their own**<br/>
+
+**8) Is there a correlation between project's state and donor's state in terms of donation amount ?**
+
+**Table - State wise Projects vs Donations**
+
+States |  NY   |   DC   |  	CA   |   SC   |  	NV   |   IA
+---- | ------ | ------ | ------ | ------ | ----- |  -----
+NY | **57.3121** | 0.423177 | 6.1593 | 0.0900104 | 0.0861968 | 0.161488
+DC | 11.7059 | **27.2631** | 4.60637 | 0.128401 | 0.0393744 | 0.275746
+CA | 9.40677 | 0.34173 | **58.4186** | 0.0485834 | 0.106149 | 0.0574352
+SC | 10.8145 | 0.222739 | 5.34664 | **42.3813** | 0.0739814 | 0.115496
+NV | 9.52517 | 0.311637 | 26.9805 | 0.021724 | **36.9311** | 0.0664827
+IA | 8.59265 | 1.21878 | 6.96014 | 0.0369313 | 0.071499 | **25.6568**
+
+A row here is a state in which a project belongs and the columns are the states where the donations came from. For example, for a project that belongs to New York(NY) state, on an average 6.1593% of the total donations come from California(CA) state. Looking at the diagonal line in this table, it clearly shows that a donor is more likely to donate to a project that belongs to a school in their own state.
+Apart from that, another interesting finding is that a donor is more likely to donate to a project that belongs to a neighbouring state.
+For example, look at the states below - 
+
+Top 5 donations for a project in **District of Columbia** - 
+
+States | Percentage Share   
+------ | --------
+DC  |  27.263134
+NY  |  11.705908
+VA  |   9.365090
+MD  |   7.012761
+CA   |  4.606375
+
+Top 5 donations for a project in **Iowa** - 
+
+States | Percentage Share   
+------ | --------
+IA  |   25.656841
+IL  |  25.329843
+NY  |  8.592648
+CA  |   6.960143
+WI  |   3.600954
+
+For a project in **DC**, a significant number of donors come from it's neighbouring states - **Virginia** and **Maryland**.
+Similarily, for a project in **Iowa**, a significant number of donors come from it's neighbouring states - **Illinois** and **Wisconsin**.
+
+**8) How does donor category vary with duration of the project ?**
+![donor_category_proj_duration](https://raw.githubusercontent.com/maneeshj/data-science-intensive/master/Donor-Choose-Project/Images/donor_category_proj_duration.png)
+
+*Projects that involve own teacher's donations would more likely be completed early than other projects*
 
 All the data exploration done so far are in the following links - <br/>
 * [Projects Only Data Exploration](https://github.com/maneeshj/data-science-intensive/blob/master/Donor-Choose-Project/ProjectsOnly_DataExploration.ipynb)<br/>
