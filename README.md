@@ -1,2 +1,2 @@
 # data-science-intensive
-Everything related to the Springboards data intensive course
+Everything related to the Springboards data science intensive course
